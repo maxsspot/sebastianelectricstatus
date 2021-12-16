@@ -1,0 +1,53 @@
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "deny"
+        X-XSS-Protection = "0"
+        Cache-Control = "no-cache"
+        Proxy-Authenticate = "Basic"
+        Origin = "https://errors.sebastianelectric.org"
+        X-Permitted-Cross-Domain-Policies = "none"
+        X-Content-Type-Options = "nosniff"
+        Content-Language = "en-US"
+        X-DNS-Prefetch-Control = "off"
+        Keep-Alive = "100"
+        Connection = "keep-alive"
+        X-Download-Options = "noopen"
+        Referrer-Policy = "no-referrer"
+        Expect-CT = "enforce, max-age=3155760000"
+        Cross-Origin-Opener-Policy = "same-origin"
+        Cross-Origin-Resource-Policy = "same-origin"
+        Cross-Origin-Embedder-Policy = "unsafe-none"
+        Allow = "POST"
+        
+        Strict-Transport-Security = '''
+            max-age=31557600;
+            includeSubDomains;
+            preload
+        '''
+        
+        Content-Security-Policy = '''
+            default-src 'none';
+            script-src 'none';
+            script-src-elem 'none';
+            script-src-attr 'none';
+            style-src 'nonce-c3VwZXJfc2VjdXJlX2Jhc2VfNjQ=' 'strict-dynamic' 'report-sample' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap;
+            img-src https://www.freeiconspng.com/uploads/electric-icon-21.png;
+            manifest-src 'none';
+            media-src 'none';
+            object-src 'none';
+            frame-src 'none';
+            form-action 'none';
+            font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+            frame-ancestors 'none';
+            worker-src 'none';
+            prefetch-src https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://www.freeiconspng.com/uploads/electric-icon-21.png https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap;
+            child-src 'none';
+            base-uri 'none';
+            upgrade-insecure-requests;
+            report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
+        '''
+
+        Permissions-Policy = '''
+            interest-cohort=(none)
+        '''
