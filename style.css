@@ -3,6 +3,29 @@
     padding:0;
 }
 
+textarea {
+	width:250px;
+	height:100px;
+	resize:none;
+	border-radius:5px;
+	background-color:gainsboro;
+	border:gainsboro solid 2px;
+}
+
+textarea:focus {
+	border:skyblue solid 2px;
+}
+
+button, textarea {
+	transition:all 0.5s;
+	outline:none;
+	font-family:"Montserrat", sans-serif;
+}
+
+button {
+	cursor:pointer;	
+}
+
 body {
 	font-family:"Montserrat", sans-serif;
     text-align:center;
