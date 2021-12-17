@@ -6,14 +6,15 @@
 textarea {
 	width:250px;
 	height:100px;
+	margin-top:5px;
 	resize:none;
 	border-radius:5px;
 	background-color:gainsboro;
-	border:gainsboro solid 2px;
+	border:gainsboro solid 3px;
 }
 
 textarea:focus {
-	border:skyblue solid 2px;
+	border:skyblue solid 3px;
 }
 
 button, textarea {
