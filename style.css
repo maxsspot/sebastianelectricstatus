@@ -8,6 +8,7 @@ textarea {
 	height:100px;
 	margin-top:5px;
 	resize:none;
+	text-indent:5px;
 	border-radius:5px;
 	background-color:gainsboro;
 	border:gainsboro solid 3px;
