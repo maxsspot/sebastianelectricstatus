@@ -27,11 +27,11 @@ button, textarea {
 button {
 	cursor:pointer;	
 	border:skyblue solid 1px;
-    	border-radius:10px;
+    	border-radius:5px;
   	background-color:transparent;
    	height:35px;
     	color:#1b1b1b;
-    	width:250px;
+    	width:255px;
     	transition:all 0.5s;
 }
 
