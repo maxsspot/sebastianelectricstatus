@@ -14,6 +14,12 @@ textarea {
 	border:gainsboro solid 3px;
 }
 
+a {
+	transition:all 0.5s;
+	cursor:pointer;
+	color:green;
+}
+
 textarea:focus {
 	border:skyblue solid 3px;
 }
