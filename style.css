@@ -26,6 +26,22 @@ button, textarea {
 
 button {
 	cursor:pointer;	
+	border:skyblue solid 1px;
+    	border-radius:10px;
+  	background-color:transparent;
+   	height:35px;
+    	color:#1b1b1b;
+    	width:250px;
+    	transition:all 0.5s;
+}
+
+button:hover {
+    background-color:skyblue;
+}
+
+button:active {
+    background-color:#82EEFD;
+    border:#82EEFD solid 1px;
 }
 
 body {
